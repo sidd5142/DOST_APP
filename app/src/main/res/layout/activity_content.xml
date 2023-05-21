@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/img2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:text="DOST"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+       <Button
+           android:id="@+id/home"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:text="Home"
+           android:textSize="19dp"
+           android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:text="Create"
+            android:textSize="19dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Profile"
+            android:textSize="19dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#9F9C9C"/>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/relativla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:text="Should I be ashamed that I need meds for mental health issues?"
+                android:textSize="25dp"
+                android:textStyle="bold"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/layout1"
+                android:layout_below="@id/textView5"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="91dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/img_4"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sharddha"
+                    android:textSize="25dp"
+                    android:layout_marginTop="8dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout1"
+                android:layout_marginTop="0dp"
+                android:padding="15dp"
+
+
+                android:text="Should diabetics be ashamed of needing insulin? Should people with asthma be ashamed of needing a inhaler? Should people with heart problems
+be ashamed of needing their meds? The answer is no. None of these people should be ashamed because it's a medical condition, something they certainly didn't ask for, and the meds they take help them live healthy lives. The same goes for mental illness. I doubt you woke up one day and said “today is a beautiful day! I think I'll give myself a mental illness with my coffee!” Nobody chooses mental illness and, unfortunately it requires us to take medicine that will keep us going. I take medicine for my mental illness and, trust me, you can tell when I miss a dose or need to take more. It's how I can function like everyone else. So, no, there is absolutely NOTHING to be ashamed about. Take them knowing that it's just a medical condition that you need to treat, not that there is something to be ashamed about. Lots of hugs!"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/txt3"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/img_6"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upvote"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"/>
+
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/img_7"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comment"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"/>
+
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/img_8"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Share"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/layout3"
+                android:background="#808080"/>
+
+
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:text="How to deal with the Depression?"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/layout2"
+                android:layout_below="@id/txt4"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="91dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/img_5"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Harsh"
+                    android:textSize="25dp"
+                    android:layout_marginTop="8dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout2"
+                android:padding="15dp"
+                android:text="@string/string1"
+                android:textSize="20dp"/>
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/txt5"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/img_6"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upvote"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"/>
+
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/img_7"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comment"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"/>
+
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/img_8"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Share"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"/>
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>
+
+
+</LinearLayout>
